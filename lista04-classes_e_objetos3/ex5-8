@@ -1,0 +1,32 @@
+5) (obrigatório) O fragmento descrito a seguir está correto?
+Justifique a sua resposta.
+
+    public class X {
+
+        public int metodo1(int a, int b){
+            ...
+        }
+        public String metodo1(int a, int b) {
+            ... 
+    }
+
+
+    O código está incorreto, pois, não é possível ter dois métodos diferentes com a mesma lista de parâmetros (tipo e ordem)
+
+
+6) (obrigatório) Se todos os objetos de uma classe tiverem que compartilhar a mesma variável, como você deve declarar essa variável?
+
+    A variável deve ser declarada como static
+
+    public static int contador;
+
+
+7) (obrigatório) Para que um membro só possa ser acessado por outros membros de sua classe, que modificador de acesso deve ser usado?
+
+    O membro deve ser declarado como private
+    
+    private ...
+
+8) (obrigatório) Um argumento int é passado para um método com o uso da chamada por ...
+
+    valor
